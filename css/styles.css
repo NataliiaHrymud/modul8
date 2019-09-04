@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+.container {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.image-container {
+  width: 100%;
+  height: 542px;
+  background-image: linear-gradient(to bottom, hsla(0,0%,0%,0.2), hsla(0,0%,0%,0.3)), url(../images/company.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-info {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 10.9475%;
+  margin-bottom: 60px;
+  color: white;
+}
+
+.button-user-info {
+  box-sizing: content-box;
+  margin: 30px 15px;
+  border: 2px solid;
+  border-color: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.button-user-info:hover {
+  border-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.logo-span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 255);
+}
+
+.slogans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+} 
+
+.slogan-first {
+  width: inherit;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.slogan-second {
+  width: inherit;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 20px;
+}
+
+.slogan-button {
+  width: 87%;
+  height: 25%;
+  background: #ff4e50;
+  border: 2px solid #ff4e50 ;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(255, 255, 255, 1);
+}
+
+.partner-info-container {
+  width: 100%;
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.slogan-third {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  color: rgb(51, 51, 51);
+}
+
+.card-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-partner-info {
+  width: 76%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-photo {
+  width: 122px;
+  height: 122px;
+  position: relative;
+  margin: 14px;
+}
+
+.photo {
+  display: block;
+  border-radius: 50%;
+
+  position: absolute;
+}
+
+.circle {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.color1 {
+  background-color: #ff4e50;
+}
+
+.color2 {
+  background-color: #ffa507;
+}
+
+.color3 {
+  background-color: #1cd7ad;
+}
+
+.color4 {
+  background-color: #4e73db;
+}
+
+.icon {
+  display: flex;
+  margin: 8px auto;
+}
+
+.name-partner {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  margin-top: 5px;
+}
+
+.about-partner-info {
+  display: block;
+  width: 84%;
+  margin: 14px auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(102, 102, 102);
+  text-align: center;
+}
+
+.button-partner {
+  width: 86.9565%;
+  height: 40px;
+  border: 2px solid #ff4e50;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #ff4e50;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 768px;
+    margin: 0 auto;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to bottom, hsla(0,0%,0%,0.2), hsla(0,0%,0%,0.3)), url(../images/company.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+
+  .header {
+    padding: 0 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .user-info {
+    display: flex;
+  /* justify-content: space-around; */
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 0;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  .button-user-info {
+    box-sizing: content-box;
+    margin: 30px 15px;
+    border: 2px solid;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    padding: 10px 15px;
+  }
+  
+  .button-user-info:hover {
+    border-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    width: max-content;
+    margin: auto 15px;
+    height: auto;
+  }
+
+  .logo-span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 255);
+  }
+
+  .slogan-first {
+    width: inherit;
+    margin-top: 130px;
+    font-size: 52px;
+  }
+  
+  .slogan-second {
+    font-size: 24px;
+  }
+  
+  .slogan-button {
+    width: 30%;
+    height: 40px;
+  }
+
+  .card-partner-info {
+    width: 50%;
+  }
+
+  .slogan-third {
+    margin-bottom: 20px;
+  }
+  .card-wrapper {
+    width: 60.1563%;
+    height: 525px;
+    flex-flow: column wrap;
+    justify-content: start;
+  }
+
+  .about-partner-info {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .button-partner {
+    width: 25.13%;
+    display: block;
+    margin: 0 25%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    min-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .header {
+    justify-content: space-around;
+  }
+
+  .slogan-third {
+    margin-bottom: 32px;
+  }
+
+  .slogan-third {
+    flex-wrap: nowrap;
+    height: auto;  
+  }
+
+  .card-wrapper {
+    width: 70%;
+    height: 235px;
+    flex-flow: row;
+  }
+
+  .card-partner-info {
+    margin: 0 2%;
+  }
+
+  .card-1 {
+    order: 1;
+  }
+
+  .card-3 {
+    order: 2;
+  }
+
+  .card-2 {
+    order: 3;
+  }
+
+  .card-4 {
+    order: 4;
+  }
+
+  .button-partner {
+  width: 15%;
+  margin: 40px 25%;
+  }
+}
